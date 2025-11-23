@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño 3 · Diseño Web</title>
+    <link rel="stylesheet" href="./style.css/web.css">
+</head>
+<body>
+<a href="inicio.html" class="back-home">← Volver a inicio</a>
+
+<header class="site-header">
+    <div class="site-header__inner">
+        <div class="brand">
+            <div class="brand__logo">MW</div>
+            <span class="brand__name">Mauricio Web</span>
+        </div>
+
+        <nav class="main-nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </div>
+</header>
+
+<main class="page">
+   
+    <section id="inicio" class="hero">
+        <div class="hero__text">
+            <h1>Diseño Web con HTML y CSS</h1>
+            <p>
+                Creo páginas sencillas para practicar: portafolios, formularios,
+                diseños con tarjetas y menús de navegación.
+            </p>
+            <div class="hero__actions">
+                <button class="btn btn--filled">Ver proyectos</button>
+                <button class="btn btn--outline">Sobre mí</button>
+            </div>
+        </div>
+
+        <div class="hero__image">
+            <div class="hero__box hero__box--big">
+                <img src="./img/web.img/imagen1.img.png" alt="Interior moderno">
+            </div>
+            <div class="hero__box hero__box--small">
+                <img src="./img/web.img/imagen2.img.png" alt="Detalle de diseño">
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="proyectos" class="projects">
+        <header class="section-header">
+            <h2>Proyectos web</h2>
+            <p>Algunos ejemplos de páginas que puedo hacer con HTML y CSS.</p>
+        </header>
+
+        <div class="projects__grid">
+            <article class="card">
+                <h3>Portafolio personal</h3>
+                <p>Página con secciones, tarjetas y enlaces internos.</p>
+            </article>
+
+            <article class="card">
+                <h3>Formulario de registro</h3>
+                <p>Inputs, labels, botones y estilos básicos.</p>
+            </article>
+
+            <article class="card">
+                <h3>Página de galería</h3>
+                <p>Imágenes organizadas con grid y flexbox.</p>
+            </article>
+        </div>
+    </section>
+
+   
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <p>Si quieres ver más trabajos, puedes dejar tu correo (ejemplo):</p>
+
+        <form class="contact__form">
+            <input type="email" placeholder="tu-correo@example.com">
+            <button type="submit" class="btn btn--filled">Enviar</button>
+        </form>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <span>© 2025 Mauricio · Prácticas de Diseño Web</span>
+</footer>
+</body>
+</html>
+
